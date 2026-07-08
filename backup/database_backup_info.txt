@@ -1,0 +1,33 @@
+بکاپ دیتابیس پروژه Gold Shop
+=====================================
+
+اطلاعات دیتابیس:
+- نوع دیتابیس: PostgreSQL
+- نام دیتابیس: gold_shop_dev
+- کاربر: postgres
+- رمز عبور: gold1404
+- هاست: 127.0.0.1
+- پورت: 5432 (پیش‌فرض)
+
+برای بازیابی دیتابیس:
+1. ابتدا دیتابیس جدید ایجاد کنید:
+   CREATE DATABASE gold_shop_dev;
+
+2. migration ها را اجرا کنید:
+   npm run migrate
+
+3. seeder ها را اجرا کنید:
+   npm run seed
+
+جداول موجود در دیتابیس:
+- Categories (دسته‌بندی‌ها)
+- Products (محصولات)
+- Inventories (موجودی‌ها)
+- Transactions (تراکنش‌ها)
+- TransactionItems (آیتم‌های تراکنش)
+- Payments (پرداخت‌ها)
+- Installments (اقساط)
+- Expenses (هزینه‌ها)
+- GoldPrices (قیمت‌های طلا)
+
+فایل‌های migration و seeder در پوشه‌های migrations و seeders موجود هستند.

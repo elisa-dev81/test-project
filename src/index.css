@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Vazirmatn', 'Vazir', 'Roboto', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8fafc;
+  direction: rtl;
+  color: #1e293b;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4af37;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b8941f;
+}
+
+/* RTL support */
+.MuiDataGrid-root {
+  direction: rtl !important;
+}
+
+.MuiDataGrid-columnHeaders {
+  direction: rtl !important;
+}
+
+.MuiDataGrid-cell {
+  direction: rtl !important;
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Loading spinner */
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+/* Error message */
+.error-message {
+  color: #d32f2f;
+  text-align: center;
+  padding: 20px;
+  background-color: #ffebee;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+/* Success message */
+.success-message {
+  color: #2e7d32;
+  text-align: center;
+  padding: 20px;
+  background-color: #e8f5e8;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+/* Gold theme colors */
+.gold-primary {
+  color: #d4af37;
+}
+
+.gold-bg {
+  background-color: #d4af37;
+}
+
+.gold-border {
+  border-color: #d4af37;
+}
+
+/* Product card styles */
+.product-card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(212, 175, 55, 0.15);
+}
+
+/* Inventory status indicators */
+.inventory-low {
+  color: #f57c00;
+  background-color: #fff3e0;
+}
+
+.inventory-out {
+  color: #d32f2f;
+  background-color: #ffebee;
+}
+
+.inventory-ok {
+  color: #388e3c;
+  background-color: #e8f5e8;
+} 

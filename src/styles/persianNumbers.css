@@ -1,0 +1,39 @@
+/* تبدیل اعداد انگلیسی به فارسی در کل پروژه */
+.persian-numbers {
+  font-family: 'Vazirmatn', sans-serif;
+}
+
+/* تبدیل اعداد در کارت‌ها */
+.card-number {
+  font-family: 'Vazirmatn', sans-serif;
+  direction: ltr;
+  text-align: right;
+}
+
+/* تبدیل اعداد در جدول‌ها */
+.table-number {
+  font-family: 'Vazirmatn', sans-serif;
+  direction: ltr;
+  text-align: right;
+}
+
+/* تبدیل اعداد در قیمت‌ها */
+.price-number {
+  font-family: 'Vazirmatn', sans-serif;
+  direction: ltr;
+  text-align: right;
+}
+
+/* تبدیل اعداد در وزن‌ها */
+.weight-number {
+  font-family: 'Vazirmatn', sans-serif;
+  direction: ltr;
+  text-align: right;
+}
+
+/* تبدیل اعداد در درصدها */
+.percentage-number {
+  font-family: 'Vazirmatn', sans-serif;
+  direction: ltr;
+  text-align: right;
+}

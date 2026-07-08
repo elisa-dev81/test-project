@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "gold1404",
+    "database": "gold_shop_dev",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "gold1404",
+    "database": "gold_shop_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "gold1404",
+    "database": "gold_shop_prod",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
