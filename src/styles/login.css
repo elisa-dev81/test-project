@@ -2,6 +2,7 @@
 .login-container {
   position: relative;
   overflow: hidden;
+  display:none;
 }
 
 .login-container::before {
