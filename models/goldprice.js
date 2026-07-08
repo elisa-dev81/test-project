@@ -41,7 +41,6 @@ module.exports = (sequelize, DataTypes) => {
       return {
         gold24k: parseFloat(this.gold24k),
         gold22k: parseFloat(this.gold22k),
-        gold21k: parseFloat(this.gold21k),
         gold18k: parseFloat(this.gold18k),
         silver: parseFloat(this.silver),
         source: this.source,
@@ -104,7 +103,6 @@ module.exports = (sequelize, DataTypes) => {
     tableName: 'GoldPrices',
     indexes: [
       {
-        fields: ['isActive', 'createdAt']
       }
     ]
   });
